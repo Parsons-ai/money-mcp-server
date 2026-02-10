@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.parsons-ai/money",
+  "description": "Personal finance assistant — track transactions, budgets, net worth via Plaid",
+  "repository": {
+    "url": "https://github.com/Parsons-ai/money-mcp-server",
+    "source": "github"
+  },
+  "version": "3.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://money.parsons.ai/api/mcp"
+    }
+  ]
+}
